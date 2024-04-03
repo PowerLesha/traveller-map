@@ -1,9 +1,12 @@
 import "./App.css";
+import MapComponent from "./components/MapComponent";
 
 function App() {
   return (
     <>
-      <div className="main">Map for travellers</div>
+      <div className="main">
+        <MapComponent />
+      </div>
     </>
   );
 }
